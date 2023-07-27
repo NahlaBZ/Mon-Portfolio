@@ -105,7 +105,16 @@ const Resume = () => {
                                                 </div>
                                             </div>
                                         </div>
-
+                                        <div className="col-lg-8">
+                                            <ul className="list-group list-group-flush">
+                                                <li className="list-group-item"><span className='fw-bold'>Recueillir le besoin</span> auprès d'un client et le formaliser dans le cadre d'une étude préliminaire.</li>
+                                                <li className="list-group-item"><span className='fw-bold'>Concevoir avec UML l'application</span> et respecter les bonnes pratiques en la matière (design pattern, normes de codage...).</li>
+                                                <li className="list-group-item"><span className='fw-bold'>Développer les programmes</span> à l'aide des langages Java ou .NET et les optimiser.</li>
+                                                <li className="list-group-item"><span className='fw-bold'>Concevoir la logique</span> algorithmique du programme.</li>
+                                                <li className="list-group-item"><span className='fw-bold'>Programmer la solution</span>, que cela soit web, mobile ou client lourd (dont accès à la base de données).</li>
+                                                <li className="list-group-item"><span className='fw-bold'>Participer à la réalisation</span> des tests unitaires automatisés et fonctionnels.</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
