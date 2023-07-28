@@ -20,7 +20,7 @@ const Header = () => {
                     <div className="col-xxl-7">
                         <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                             <div className="profile bg-gradient-primary-to-secondary">
-                                <img className="profile-img" src="./media/avatar.png" alt="mon-profil" />
+                                <img className="profile-img" src="./media/avatar.webp" alt="mon-profil" />
                             </div>
                         </div>
                     </div>
