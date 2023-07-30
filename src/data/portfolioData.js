@@ -1,4 +1,15 @@
 export const portfolioData = [
+
+
+  {
+    id: 2,
+    name: 'Booki',
+    language: 'html',
+    languagesIcons: ["fa-brands fa-html5", "fa-brands fa-css3-alt"],
+    git: 'https://github.com/NahlaBZ/Agence-de-voyage',
+    info: 'Réalisation de la page d\'accueil d\'une agence de voyage totalement responsive en HTML / CSS',
+    picture: '../../media/booki.jpg'
+  },
   {
     id: 1,
     name: 'Portfolio Architecte',
@@ -11,16 +22,7 @@ export const portfolioData = [
 
 
 
-  {
-    id: 2,
-    name: 'Booki',
-    language: 'html',
-    languagesIcons: ["fa-brands fa-html5", "fa-brands fa-css3-alt"],
-    source: 'https://github.com/NahlaBZ/Agence-de-voyage',
-    git: 'hhttps://github.com/NahlaBZ/Agence-de-voyage',
-    info: 'Réalisation de la page d\'accueil d\'une agence de voyage totalement responsive en HTML / CSS',
-    picture: '../../media/booki.jpg'
-  },
+
   {
     id: 3,
     name: 'Kasa',
