@@ -111,100 +111,51 @@ const Resume = () => {
                         </section>
                         <div className="pb-5"></div>
                         <section>
-                            <div className="card shadow border-0 rounded-4 mb-5">
-                                <div className="card-body p-5">
-                                    <div className="mb-5">
-                                        <div className="d-flex align-items-center mb-4">
-                                            <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i className="bi bi-code-slash"></i></div>
-                                            <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Langages et Bibliothèques</span></h3>
-                                        </div>
-                                        <div className="accordion accordion-flush" id="accordion">
-                                            <div className="accordion-item">
-                                                <h4 className="accordion-header">
-                                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#html" aria-expanded="false" aria-controls="html">
-                                                        HTML / CSS
-                                                    </button>
-                                                </h4>
-                                                <div id="html" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                                                    <ul className="list-group list-group-flush mr-2">
-                                                        <li className="list-group-item">Intégrer du contenu conformément à une maquette avec HTML et CSS</li>
-                                                        <li className="list-group-item">Implémenter une interface responsive avec HTML et CSS</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="accordion-item">
-                                                <h4 className="accordion-header">
-                                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#js" aria-expanded="false" aria-controls="js">
-                                                        JavaScript
-                                                    </button>
-                                                </h4>
-                                                <div id="js" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                                                    <ul className="list-group list-group-flush">
-                                                        <li className="list-group-item">Récupérer les données utilisateurs dans le JavaScript via des formulaires</li>
-                                                        <li className="list-group-item">Manipuler les éléments du DOM avec JavaScript</li>
-                                                        <li className="list-group-item">Gérer les événements utilisateurs avec JavaScript</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="accordion-item">
-                                                <h4 className="accordion-header">
-                                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#react" aria-expanded="false" aria-controls="react">
-                                                        React JS
-                                                    </button>
-                                                </h4>
-                                                <div id="react" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                                                    <ul className="list-group list-group-flush">
-                                                        <li className="list-group-item">Configurer la navigation entre les pages de l'application avec React Router</li>
-                                                        <li className="list-group-item">Initialiser une application avec Create React App</li>
-                                                        <li className="list-group-item">Développer des éléments de l'interface d'un site web grâce à des composants React</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div className="accordion-item">
-                                                <h2 className="accordion-header">
-                                                    <button className="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#node" aria-expanded="false" aria-controls="node">
-                                                        Node JS
-                                                    </button>
-                                                </h2>
-                                                <div id="node" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                                                    <ul className="list-group list-group-flush">
-                                                        <li className="list-group-item">Implémenter un modèle logique de données conformément à la réglementation</li>
-                                                        <li className="list-group-item">Mettre en œuvre des opérations CRUD de manière sécurisée</li>
-                                                        <li className="list-group-item">Stocker des données de manière sécurisée</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="mb-0">
-                                        <div className="d-flex align-items-center mb-4">
-                                            <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i className="bi bi-tools"></i></div>
-                                            <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Outils Professionnels</span></h3>
-                                        </div>
-                                        <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO</div></div>
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Analytics</div></div>
-                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Search Console</div></div>
-                                        </div>
-                                        <div className="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Figma</div></div>
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Canva</div></div>
-                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Postman</div></div>
-                                        </div>
-                                        <div className="row row-cols-1 row-cols-md-3">
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">VS Code</div></div>
-                                            <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Git</div></div>
-                                            <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Webpack</div></div>
-                                        </div>
-                                    </div>
+                            <div className="mb-0">
+                                <div className="d-flex align-items-center mb-4">
+                                    <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i className="bi bi-tools"></i></div>
+                                    <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Outils Professionnels</span></h3>
+                                </div>
+                                <div className="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
+                                    <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Javascript</div></div>
+                                </div>
+                                <div className="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">React</div></div>
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">NodeJS</div></div>
+                                    <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">ExpressJs</div></div>
+                                </div>
 
+                            </div>
+                            <div className="mb-0">
+                                <div className="d-flex align-items-center mb-4">
+                                    <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i className="bi bi-tools"></i></div>
+                                    <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Outils Professionnels</span></h3>
+                                </div>
+                                <div className="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO</div></div>
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Analytics</div></div>
+                                    <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Search Console</div></div>
+                                </div>
+                                <div className="row row-cols-1 row-cols-md-3 mb-4">
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Figma</div></div>
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Canva</div></div>
+                                    <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Postman</div></div>
+                                </div>
+                                <div className="row row-cols-1 row-cols-md-3">
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">VS Code</div></div>
+                                    <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Git</div></div>
+                                    <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Webpack</div></div>
                                 </div>
                             </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </main>
+
+
+                        </section >
+                    </div >
+                </div >
+            </div >
+        </main >
     )
 };
 

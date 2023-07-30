@@ -8,9 +8,9 @@ const Header = () => {
                 <div className="row gx-5 align-items-center">
                     <div className="col-xxl-5">
                         <div className="text-center text-xxl-start">
-                            <div className="badge bg-gradient-primary-to-secondary text-white mb-4"><div className="text-uppercase">Developpement Full Stack </div></div>
+                            <div className="badge bg-gradient-primary-to-secondary text-white mb-4"><div className="text-uppercase">Developpement Web </div></div>
                             <p className="fs-3 fw-light text-muted">Je peux vous aider à</p>
-                            <h2 className="display-3 fw-bolder mb-5"><span className="text-gradient d-inline">Mettre en ligne votre business et le développer</span></h2>
+                            <h2 className="display-3 fw-bolder mb-5"><span className="text-gradient d-inline">la conception de sites internet et d'applications</span></h2>
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                 <NavLink className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" to='/competences'>Compétences</NavLink>
                                 <NavLink className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" to='/projets'>Projets</NavLink>
