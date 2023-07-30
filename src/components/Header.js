@@ -14,6 +14,7 @@ const Header = () => {
                             <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                 <NavLink className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" to='/competences'>Compétences</NavLink>
                                 <NavLink className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" to='/projets'>Projets</NavLink>
+                                <NavLink className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" to='/Contact'>Contact</NavLink>
                             </div>
                         </div>
                     </div>
