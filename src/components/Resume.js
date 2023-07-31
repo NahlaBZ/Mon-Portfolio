@@ -127,12 +127,7 @@ const Resume = () => {
                                     <div className="col"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">ExpressJs</div></div>
                                 </div>
 
-                            </div>
-                            <div className="mb-0">
-                                <div className="d-flex align-items-center mb-4">
-                                    <div className="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i className="bi bi-tools"></i></div>
-                                    <h3 className="fw-bolder mb-0"><span className="text-gradient d-inline">Outils Professionnels</span></h3>
-                                </div>
+
                                 <div className="row row-cols-1 row-cols-md-3 mb-4">
                                     <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO</div></div>
                                     <div className="col mb-4 mb-md-0"><div className="d-flex align-items-center bg-light rounded-4 p-3 h-100">Google Analytics</div></div>
